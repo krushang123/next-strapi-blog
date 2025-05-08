@@ -1,5 +1,4 @@
 import { Flex, Heading, Stack } from '@chakra-ui/react';
-import React from 'react';
 
 const Header = () => (
   <Stack
@@ -16,8 +15,8 @@ const Header = () => (
   >
     <Flex justify="space-between">
       <Stack gap={2} direction="row" align="center">
-        <Heading as="h1" color="white">
-          Blog Page
+        <Heading as="h1" color="white" size="3xl">
+          Strapi Blog Explorer
         </Heading>
       </Stack>
     </Flex>

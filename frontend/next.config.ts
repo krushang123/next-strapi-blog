@@ -4,13 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      new URL(
-        'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-      ),
-
-      new URL('http://localhost:1337/**/*'),
-    ],
+    remotePatterns: [new URL('http://localhost:1337/**/*')],
   },
 
   experimental: {

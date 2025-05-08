@@ -387,7 +387,6 @@ export interface ApiBlogBlog extends Struct.CollectionTypeSchema {
         'shared.seo',
         'blocks.paragraph',
         'blocks.paragraph-with-image',
-        'blocks.heading',
         'blocks.full-image',
       ]
     >;

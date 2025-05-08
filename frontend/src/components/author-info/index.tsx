@@ -1,5 +1,5 @@
+import { formatDate } from '@/src/utils/format-date';
 import { Avatar, HStack, Stack, Text } from '@chakra-ui/react';
-import React from 'react';
 
 interface AuthorInfoProps {
   name: string;
@@ -19,7 +19,7 @@ const AuthorInfo = (props: AuthorInfoProps) => {
       <Stack gap="0">
         <Text fontWeight="medium">{name}</Text>
         <Text color="fg.muted" textStyle="sm">
-          {publishedAt}
+          {formatDate(publishedAt)}
         </Text>
       </Stack>
     </HStack>

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_blocks_paragraph_with_images",
   "info": {
-    "displayName": "Paragraph With Image"
+    "displayName": "Paragraph With Image",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,11 +10,12 @@
       "type": "richtext"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "reversed": {
       "type": "boolean",
@@ -22,6 +24,9 @@
     "image_landscape": {
       "type": "boolean",
       "default": true
+    },
+    "heading": {
+      "type": "string"
     }
   }
 }
